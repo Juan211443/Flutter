@@ -1,0 +1,11 @@
+class IceCream{
+  
+  String flavor = "";
+  bool sugar = true;
+  double price = 10.25;
+  String size = "Medium";
+
+  void charge() {
+    print("El precio de un helado sabor a $flavor de tamaño $size es de \$${price}");
+  }
+}

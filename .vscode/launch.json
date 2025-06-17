@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Dart: Exercise",
+      "type": "dart",
+      "request": "launch",
+      "program": "dart_basic/bin/Basic/mappers.dart",
+      "console": "terminal"
+    }
+  ]
+}

@@ -1,9 +1,10 @@
-//import 'package:dart_basic/dart_basic.dart' as dart_basic;
+import 'package:dart_basic/IceCream';
 
 void main() {
-  variables();
-  conversions();
-  operations();
+  //   variables();
+  //   conversions();
+  //   operations();
+  iceCreamTest();
 }
 
 void variables() {
@@ -61,4 +62,12 @@ void operations() {
   // a la derecha suma o resta despues de declarado / a la izquierda suma o resta despues de declarado
   a++;
   b--;
+}
+
+void iceCreamTest() {
+  var cone = IceCream();
+  cone.flavor = "Chocolate";
+  cone.size = "Giant";
+  cone.price = 15.43;
+  cone.charge();
 }
